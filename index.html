@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .card {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            height: 500px;
+            width: 300px;
+            text-align: left;
+        }
+
+        .card__button {
+            background-color: green;
+            color: black;
+            border: none;
+            border: solid white;
+            2px;
+            padding: 2px;
+        }
+
+        /* modifier selection */
+        .card__button--pink {
+            background-color: pink;
+        }
+    </style>
+
+    <div class="card">
+        <!-- insertion of proper class name -->
+        <img class="card__image" src="ooty.jpeg" alt=""><br>
+        <h1 class="card__title">Ooty:Queen of Hills</h1> <br>
+        <p class="card__desc">The best time to visit Ooty with family is between the months of April to June and
+            September to November. Ooty is home to enchanting hills, magnificent valleys, tea and coffee plantation and
+            beautiful lakes.</p> <br><br>
+        <button class="card__button">Checkout</button>
+        <!-- insertion of modifier -->
+        <button class="card__button card__button--pink">Delete</button>
+
+    </div>
+</body>
+
+</html>
